@@ -58,7 +58,7 @@ Properties-显卡补丁方法说明（黑苹果小兵） : [Properties-显卡补
 
 - 驱动 : [VoodooI2C.kext 、VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C/releases)
 
-## USB : 端口定制 8086:9DED
+## USB : 端口定制
 
 - 驱动 : [SSDT-EC-USBX.aml]()
 - 使用 [Hackintool](https://github.com/headkaze/Hackintool/releases) 定制USB
