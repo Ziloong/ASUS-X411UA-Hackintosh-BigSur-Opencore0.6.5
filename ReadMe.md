@@ -35,6 +35,9 @@
 驱动 : [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 使用 `DeviceProperties` 方法仿冒 `device-id` : `3EA6` , 注入 `ig-platform-id` , 默认使用 `59160000 ` 其他ID注入后闪屏或者有别的奇怪的问题。
+HDMI 使用 `DeviceProperties` 方法 `framebuffer-con1-alldata` 注入 `framebuffer-con1-alldata` , 默认使用 `01050900 00080000 C7010000 02040A00 00080000 C7010000  ` 注入HDMI接口
+
+Properties-显卡补丁方法说明（黑苹果小兵） : [Properties-显卡补丁一览表.pdf](https://github.com/Ziloong/ASUS-X411UA-Hackintosh-BigSur-Opencore0.6.5/blob/main/Properties%E6%96%B9%E6%B3%95/Properties-%E6%98%BE%E5%8D%A1%E8%A1%A5%E4%B8%81%E4%B8%80%E8%A7%88%E8%A1%A8.pdf)
 
 ## 声卡 : Conexant CX8050
 
